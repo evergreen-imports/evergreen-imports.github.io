@@ -1,0 +1,18 @@
+	{% if page.language == 'en' %}
+	{% for post in site.tags.en %} 
+  <li class="w-col w-col-3 w-col-small-6">
+    <a class="w-inline-block coaster-hover" href="{{ post.url }}"><p class="w-hidden">{{ post.title }}</p>
+      <img class="coaster-image" src="{{ post.coaster }}" alt="{{ post.title }}" />
+     </a>
+  </li> 
+  {% endfor %}
+  {% endif %}
+	{% if page.language == 'jp' %}
+	{% for post in site.tags.jp %} 
+  <li class="w-col w-col-3 w-col-small-6">
+    <a class="w-inline-block coaster-hover" href="{{ post.url }}"><p class="w-hidden">{{ post.title }}</p>
+      <img class="coaster-image" src="{{ post.coaster }}" alt="{{ post.title }}" />
+     </a>
+  </li> 
+  {% endfor %}
+  {% endif %}

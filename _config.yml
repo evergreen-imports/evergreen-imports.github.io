@@ -1,0 +1,9 @@
+name: Evergreen Imports
+author: Yoshiko Oka Wright
+timezone: Asia/Tokyo
+permalink: pretty
+#permalink: /:categories/:year/:title
+markdown: kramdown
+#language_default: 'jp'
+#languages: ['jp', 'en']
+no_fill_default_content: true
