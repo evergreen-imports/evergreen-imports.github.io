@@ -564,4 +564,8 @@ a, a:hover, .green{
   .evergreen-logo {
     width: 80%;
   }
+	.chart-img{
+		visibility: collapse;
+		height: 0;
+	}
 }
